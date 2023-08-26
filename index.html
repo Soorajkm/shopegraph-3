@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel=stylesheet href="./style.css">
+    <link rel=stylesheet href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="./js.js"></script>
+    
+</head>
+<body onload="bodyload()">
+    <header>
+           <img class="mainImage" src="./public/images/MainImage.png">
+           <div class="header">
+            <div class="header-text">
+               <div class="text-right">
+                    ShopKart
+               </div>
+               <div class="text-left">
+                    <span>WISHLIST(0)</span>
+                    <span>BAG(0)</span>
+               </div> 
+            </div>
+             <div>
+                <img class="header-line" src="./public/images/StarLine.png"/>
+             </div>
+           </div>
+           <div class="menu">
+                <ul class="list">
+                </u>
+           </div>
+           <main>
+                <h1 class="main-text-1">
+                    Fresh
+                </h1>
+                <div >
+                    <img class="main-text-2" src="./public/images/Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.png">
+                </div>
+                <h1 class="main-text-3">
+                    Look
+                </h1>
+           </main>
+           <div>
+               <a><img class="frame" src="./public/images/Frame 11197.png"/></a>
+           </div>
+    </header>  
+    <section class="mt-3 row">
+        <nav class="col-2">
+            <div>
+                <label class="form-label fw-bold">Select Category</label>
+                <div>
+                    <select onchange="CategoryChange()" class="form-select" id="lstCategories">
+
+                    </select>
+                </div>
+            </div>
+        </nav>
+        <article class="col-10 d-lg-inline-flex flex-wrap overflow-scroll"  style="height:600px">
+
+        </article>
+    </section>
+    <footer>
+        <img class="footerImage" src="./public/images/18591063.png">
+        <div class="d-flex justify-content-around footerUpper">
+            <div class="footer-left">
+                <div>
+                    Newsellter
+                </div>
+                <div>
+                    Get news about article and updates in your inbox
+                </div>
+            </div>
+            <div  class="footer-right">
+                <dl>
+                    <dt>Name</dt> 
+                    <dd>
+                        <input type="text" required>
+                    </dd>
+                    <dt>Email</dt>
+                    <dd>
+                        <input type="email" required>
+                    </dd>
+                    <dt>Message</dt>
+                    <dd>
+                        <input type="text" required>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <div className="footerLastWord">
+            <h1 class="footerLastWord-1">GET</h1>
+            <h1 class="footerLastWord-2">IN TOUCH</h1>
+        </div>
+        
+    </footer>
+</body>
+</html>
